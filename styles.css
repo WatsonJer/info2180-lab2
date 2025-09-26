@@ -45,7 +45,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 header h1 {
@@ -68,18 +68,21 @@ header p {
 
 article {
   margin-bottom: 40px;
+  margin-right: 100px;
+}
+
+hr {
+  margin-right: 100px;
 }
 
 h2 {
   font-size: 32px;
   color: #48bb78;
-  margin: 5px;
+  margin-bottom: 5px;
 }
 
 .date {
-  font-size: 14px;
   color: #718096;
-  margin-bottom: 15px;
 }
 
 .photo1 {
@@ -88,23 +91,53 @@ h2 {
   margin: 0 15px 10px 0;
   float: right;
   object-fit: cover;
-  padding-top: 20px;
+  padding-left: 15px;
 }
 
 .photo2 {
   width: 200px;
   height: auto;
   margin: 0 15px 10px 0;
-  float: right;
+  float: left;
   object-fit: cover;
-  padding-top: 20px;
 }
 
 aside h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+aside h3.social-arc {
+  color: #48bb78;
+}
+
 aside .about {
   background-color: #e2e8f0;
   padding: 15px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+aside section {
+  margin-bottom: 20px;
+}
+
+aside li {
+  margin-bottom: 5px;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside a {
+  color: #4299e1;
+}
+
+footer {
+  background-color: #2c5282;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  padding-right: 500px;
 }
